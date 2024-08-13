@@ -4,7 +4,7 @@
 
 //  primitive      [call by value]    (change in copy not original)
 
-// 7 types : string , Number , Boolean , Null , Undefined , Symbol , Bigint
+// 7 types : string , Number , Boolean , Null , Undefined , Symbol , Bigignt
 
 
 // java script is dynamically types language because java is not defines any language.
@@ -42,8 +42,6 @@ console.log(typeof maulanas)
 
 // function return function ,  but it is actually called functionobject //
 // All non primitive data types are called function
-
-// All the non primitive types return types comes in object //
 
 
 

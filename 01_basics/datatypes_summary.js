@@ -46,3 +46,31 @@ console.log(typeof maulanas)
 
 
 //link_____ type of operator ecma....
+
+
+// =============================================================================================//
+
+// stack (Primitive) , Heap (Non-Primitive)
+
+let myyoutubename = "salah@gamil.com"
+
+let onothername = myyoutubename 
+
+onothername = "ayan@gmail.com"
+
+console.log(onothername)
+console.log(myyoutubename )
+
+let userOne = {
+    email: "user@google.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@amazon.com"
+
+console.log(userTwo.email )
+console.log(userOne.email )
+
+// all primitive value is in stack it works in copy
+//all non primitive value is in heap in heap there is direct reference and change in original value

@@ -49,7 +49,7 @@ console.log(array3)
 
 console.log( gamename.anchor ('top'))
 
-const paragraph = 'hello my name is salah'
+const paragraph = 'hello my name is salahh'
 const regex = /(A-Z)/d;
 const found = paragraph.match(regex);
 

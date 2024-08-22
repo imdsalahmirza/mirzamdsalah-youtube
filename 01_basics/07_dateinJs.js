@@ -23,15 +23,39 @@ let anotherdate = new Date(2024, 0 , 21,  5,  3,  27, )
 console.log(anotherdate.toLocaleString());        // 1/21/2024, 5:03:27 AM
 
 let anotherdate1 = new Date("2024-01-14") // DD/MM/YY MONTH START FROM 1  BUT IN SINGLE START FROM 0 //
-console.log(anotherdate1.toLocaleString());
+console.log(anotherdate1.toLocaleString());      // 2024-01-21T00:00:00.000Z
 
 let todaydate = new Date("01-14-2024") // we prefer to use mm/dd/yy mostly in india
-console.log(todaydate.toLocaleString());
+console.log(todaydate.toLocaleString());   //  sun jan 21 2024
+                                           
+let mytimestamp =  Date.now()
+console.log(mytimestamp)                       //1728219872873
+console.log(todaydate.getTime())                      // 1703628736272
+console.log(Math.floor(Date.now()/1000))             // 1724308262
 
-let mytimestamp = Date.now()
-console.log(mytimestamp)
-console.log(todaydate.getTime())
-console.log(Math.floor(Date.now()/1000))
+let Newdate = new Date()
+console.log(Newdate)
+console.log(Newdate.getDay())     // 4
+console.log(Newdate.getFullYear())    // 2024
+console.log(Newdate.getHours())       // 4
+console.log(Newdate.getDate())     // 22
+console.log(Newdate.getMonth() + 1 )  // 8
 
 
+'${Newdate.getDAY()} and the time is' 
+
+console.log(Newdate.toLocaleString('default', {
+    weekday: "long"
+}))                                               // Thursday
+                    
+// Newdate.toLocaleString('default', {weekday: "long"})
+
+                    
+
+            
+
+                    
+                    
+
+                    
                     

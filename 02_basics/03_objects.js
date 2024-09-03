@@ -1,3 +1,7 @@
+// there is two ways to declare objects  literals or constructor
+// no singleton in literals but with constructor there is always singleton
+
+
 // singleton
 // object.create
 
@@ -21,7 +25,7 @@ const jsuser = {
 }
 //jsuser.email = "salah@chatgpt.com"     //...... value change
 //Object.freeze(jsuser)                  // if you want no one will change the value so yuo can put freeze
-jsuser.email ="slaha@microsoft.com"
+//jsuser.email ="slaha@microsoft.com"
 // console.log(jsuser)
 
 
@@ -37,7 +41,8 @@ jsuser.greeting = function(){
 
 
 jsuser.greetingtwo = function(){  
-    console.log ('hello js user , ${this.name}')
+    console.log (`hello js user, ${this.name}`);  // convert string into back ticks and ist called string-
+    // - interpollation
 }
 
 console.log(jsuser.greetingtwo())

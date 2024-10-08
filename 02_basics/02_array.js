@@ -12,7 +12,7 @@ const otherhero = ["hitachi", "madara"]
 const all_new_heroes = [...heroes, ...anime_heroes, ... otherhero]  // spread
 // console.log(all_new_heroes)
 
-const otherarray = [1, 2, 3, [4, 5, 6], 7 ,[6, 7, [4,5]]];
+const otherarray = [1, 2, 3, [4, 5, 6], 7 ,[6, 7, 8, [4,5]]];
 
 const real_other_array = otherarray.flat(Infinity)
 console.log(real_other_array);

@@ -14,7 +14,7 @@ const all_new_heroes = [...heroes, ...anime_heroes, ... otherhero]  // spread
 
 const otherarray = [1, 2, 3, [4, 5, 6], 7 ,[6, 7, [4,5]]];
 
-const real_other_array = [otherarray.flat(Infinity)];
+const real_other_array = otherarray.flat(Infinity)
 console.log(real_other_array);
 
 

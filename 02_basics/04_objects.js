@@ -57,5 +57,5 @@ console.log(Object.keys(tinderuser)) //all keys put in array most imp and intere
 console.log(Object.values(tinderuser))
 console.log(Object.entries(tinderuser)) // rarely used
 
-console.log(tinderuser.hasOwnProperty('isloggedIn'))
-console.log(tinderuser.hasOwnProperty('logged'))
+console.log(tinderuser.hasOwnProperty('isloggedIn')) // true
+console.log(tinderuser.hasOwnProperty('logged')) // false

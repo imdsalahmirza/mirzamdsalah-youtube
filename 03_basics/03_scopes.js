@@ -21,4 +21,4 @@ console.log(a);
 // console.log(b);
 // console.log(c);
 
-// global scope in brower is different than  global scope in node
+// global scope in brower is different than  global scope in node.....

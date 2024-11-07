@@ -22,3 +22,4 @@ console.log(a);
 // console.log(c);
 
 // global scope in brower is different than  global scope in node.....
+// global scope value can be available under the scope but inner scope should not go outside the scope..
